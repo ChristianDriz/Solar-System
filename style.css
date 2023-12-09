@@ -1,0 +1,316 @@
+body {
+    background-image: url(/img/space.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.sun {
+    background-image: url(/img/Sun.svg);
+    background-position: center;
+    background-size: cover;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    left: -50px;
+    top: 5px;
+}
+
+
+.mercury-outline, .venus-outline, .earth-outline, .mars-outline, .jupiter-outline, 
+.saturn-outline, .uranus-outline, .neptune-outline, .pluto-outline, .moon-outline {
+    border-radius: 50%;
+    border: 1px dotted #b4b4b4;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mercury-outline {
+    height: 180px;
+    width: 180px;
+}
+
+.mercury {
+    background-image: url(/img/mercury.svg);
+    height: 20px;
+    width: 20px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 44%;
+    left: 44%;
+    transform: translate(-50%, -50%);
+    animation: mercury 4s linear infinite;
+}
+
+@keyframes mercury {
+    from {
+        transform: rotate(0deg) translateX(90px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(90px) rotate(-360deg);
+    }
+}
+
+
+.venus-outline {
+    height: 230px;
+    width: 230px;
+}
+
+.venus {
+    background-image: url(/img/venus.svg);
+    height: 30px;
+    width: 30px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 44%;
+    left: 44%;
+    transform: translate(-50%, -50%);
+    animation: venus 6s linear infinite;
+}
+
+@keyframes venus {
+    from {
+        transform: rotate(0deg) translateX(115px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(115px) rotate(-360deg);
+    }
+}
+
+
+.earth-outline {
+    height: 320px;
+    width: 320px;
+}
+
+.earth {
+    background-image: url(/img/earth.svg);
+    height: 35px;
+    width: 35px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 44%;
+    left: 44%;
+    transform: translate(-50%, -50%);
+    animation: earth 10s linear infinite;
+}
+
+@keyframes earth {
+    from {
+        transform: rotate(0deg) translateX(160px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(160px) rotate(-360deg);
+    }
+}
+
+
+.moon-outline {
+    height: 45px;
+    width: 45px;
+}
+
+.moon {
+    background-image: url(/img/moon.svg);
+    height: 8px;
+    width: 8px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 44%;
+    left: 44%;
+    transform: translate(-50%, -50%);
+    animation: moon 2s linear infinite;
+}
+
+@keyframes moon {
+    from {
+        transform: rotate(0deg) translateX(22px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(22px) rotate(-360deg);
+    }
+}
+
+
+
+.mars-outline {
+    height: 430px;
+    width: 430px;
+}
+
+.mars {
+    background-image: url(/img/mars.svg);
+    height: 25px;
+    width: 25px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 47%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    animation: mars 12s linear infinite;
+}
+
+@keyframes mars {
+    from {
+        transform: rotate(0deg) translateX(215px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(215px) rotate(-360deg);
+    }
+}
+
+.jupiter-outline {
+    height: 550px;
+    width: 550px;
+}
+
+.jupiter {
+    background-image: url(/img/jupiter.svg);
+    height: 80px;
+    width: 80px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 42%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    animation: jupiter 20s linear infinite;
+}
+
+@keyframes jupiter {
+    from {
+        transform: rotate(0deg) translateX(275px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(275px) rotate(-360deg);
+    }
+}
+
+
+.saturn-outline {
+    height: 660px;
+    width: 660px;
+}
+
+.saturn {
+    background-image: url(/img/saturn.svg);
+    height: 65px;
+    width: 65px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    animation: saturn 25s linear infinite;
+}
+
+@keyframes saturn {
+    from {
+        transform: rotate(0deg) translateX(330px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(330px) rotate(-360deg);
+    }
+}
+
+
+.uranus-outline {
+    height: 750px;
+    width: 750px;
+}
+
+.uranus {
+    background-image: url(/img/uranus.svg);
+    height: 40px;
+    width: 40px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 48%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    animation: uranus 30s linear infinite;
+}
+
+@keyframes uranus {
+    from {
+        transform: rotate(0deg) translateX(375px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(375px) rotate(-360deg);
+    }
+}
+
+.neptune-outline {
+    height: 850px;
+    width: 850px;
+}
+
+.neptune {
+    background-image: url(/img/neptune.svg);
+    height: 45px;
+    width: 45px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 47%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    animation: neptune 35s linear infinite;
+}
+
+@keyframes neptune {
+    from {
+        transform: rotate(0deg) translateX(425px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(425px) rotate(-360deg);
+    }
+}
+
+.pluto-outline {
+    height: 970px;
+    width: 970px;
+}
+
+.pluto {
+    background-image: url(/img/pluto.svg);
+    height: 15px;
+    width: 15px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 49%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    animation: pluto 40s linear infinite;
+}
+
+@keyframes pluto {
+    from {
+        transform: rotate(0deg) translateX(485px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(485px) rotate(-360deg);
+    }
+}
