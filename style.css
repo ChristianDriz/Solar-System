@@ -1,5 +1,5 @@
 body {
-    background-image: url(/img/space.svg);
+    background-image: url(img/space.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -7,7 +7,7 @@ body {
 }
 
 .sun {
-    background-image: url(/img/Sun.svg);
+    background-image: url(img/Sun.svg);
     background-position: center;
     background-size: cover;
     width: 180px;
@@ -44,7 +44,7 @@ p {
 }
 
 .mercury {
-    background-image: url(/img/mercury.svg);
+    background-image: url(img/mercury.svg);
     height: 20px;
     width: 20px;
     background-size: 100%;
@@ -72,7 +72,7 @@ p {
 }
 
 .venus {
-    background-image: url(/img/venus.svg);
+    background-image: url(img/venus.svg);
     height: 30px;
     width: 30px;
     background-size: 100%;
@@ -100,7 +100,7 @@ p {
 }
 
 .earth {
-    background-image: url(/img/earth.svg);
+    background-image: url(img/earth.svg);
     height: 35px;
     width: 35px;
     background-size: 100%;
@@ -128,7 +128,7 @@ p {
 }
 
 .moon {
-    background-image: url(/img/moon.svg);
+    background-image: url(img/moon.svg);
     height: 8px;
     width: 8px;
     background-size: 100%;
@@ -157,7 +157,7 @@ p {
 }
 
 .mars {
-    background-image: url(/img/mars.svg);
+    background-image: url(img/mars.svg);
     height: 25px;
     width: 25px;
     background-size: 100%;
@@ -184,7 +184,7 @@ p {
 }
 
 .jupiter {
-    background-image: url(/img/jupiter.svg);
+    background-image: url(img/jupiter.svg);
     height: 80px;
     width: 80px;
     background-size: 100%;
@@ -212,7 +212,7 @@ p {
 }
 
 .saturn {
-    background-image: url(/img/saturn.svg);
+    background-image: url(img/saturn.svg);
     height: 65px;
     width: 65px;
     background-size: 100%;
@@ -240,7 +240,7 @@ p {
 }
 
 .uranus {
-    background-image: url(/img/uranus.svg);
+    background-image: url(img/uranus.svg);
     height: 40px;
     width: 40px;
     background-size: 100%;
@@ -267,7 +267,7 @@ p {
 }
 
 .neptune {
-    background-image: url(/img/neptune.svg);
+    background-image: url(img/neptune.svg);
     height: 45px;
     width: 45px;
     background-size: 100%;
@@ -294,7 +294,7 @@ p {
 }
 
 .pluto {
-    background-image: url(/img/pluto.svg);
+    background-image: url(img/pluto.svg);
     height: 15px;
     width: 15px;
     background-size: 100%;
